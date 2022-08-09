@@ -1,0 +1,26 @@
+<div class="account-page">
+  <a routerLink="../../career/jobs" class="btn btn-primary apply-btn">Apply Job</a>
+  <div class="container">
+    <h3 class="account-title">Management Login</h3>
+    <div class="account-box">
+      <div class="account-wrapper">
+        <div class="account-logo">
+          <a href="javascript:"><img src="assets/img/logo2.png" alt="Focus Technologies"></a>
+        </div>
+        <div class="contain">
+          <div class="row d-flex align-items-center justify-content-center">
+            <form class="col-md-6">
+              <div class="card px-5 py-5">
+                <div class="form-input">
+                  <input type="text" name="phoneNumber" placeholder="Phone Number" class="form-control"
+                    placeholder="Enter Phone Number" [(ngModel)]="phoneNumber" min="10" max="15">
+                </div>
+                <button class="btn btn-success mt-4 signup" (click)="getOTP()">Get OTP</button>
+                <div id="sign-in-button"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,8 @@
+.content{padding:30px;}
+.row img {
+  border-radius: 40%;
+  cursor: pointer;
+}
+.row h5 {
+  margin-top: 20px;
+}
